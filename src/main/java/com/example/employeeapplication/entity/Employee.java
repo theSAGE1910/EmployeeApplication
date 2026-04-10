@@ -14,6 +14,9 @@ public class Employee {
     String employeeName;
     String employeeCity;
 
+    public Employee() {
+    }
+
     public Employee(int employeeId, String employeeName, String employeeCity) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
